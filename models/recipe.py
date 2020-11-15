@@ -20,4 +20,13 @@ class Recipe:
         self.directions = directions
         self.is_publish = False
 
-
+@property
+def data(self):
+    return {
+        'id':'self.id',
+        'name':'self.name',
+        'description':'self.description',
+        'num_of_servings':'self.num_of_servings',
+        'cook_time':'self.cook_time',
+        'directions':'self.directions'
+    }
