@@ -4,9 +4,9 @@
 from http import HTTPStatus
 
 from flask import request
-from flask_restful import Resources
-from models.recipe import Recipe, recipe_list
+from flask_restful import Resource
 
+from models.recipe import Recipe, recipe_list
 
 class RecipeListResource(Resource):
 
